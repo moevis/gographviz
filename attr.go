@@ -378,6 +378,9 @@ const (
 	Outline Attr = "outline"
 	// F is not in the documentation, but found in the transparency.gv.txt example
 	F Attr = "f"
+	
+	// Class
+	Class Attr = "class"
 )
 
 var validAttrs = map[string]Attr{
@@ -556,4 +559,6 @@ var validAttrs = map[string]Attr{
 	string(SSize):    SSize,
 	string(Outline):  Outline,
 	string(F):        F,
+	
+	string(Class): Class,
 }
