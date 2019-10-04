@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/awalterschulze/gographviz/internal/token"
+	"home/ubuntu/code/gographviz/internal/token"
 )
 
 type ErrorSymbol interface {
