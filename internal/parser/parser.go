@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	parseError "home/ubuntu/code/gographviz/internal/errors"
-	"home/ubuntu/code/gographviz/internal/token"
+	parseError "github.com/moevis/gographviz/gographviz/internal/errors"
+	"github.com/moevis/gographviz/gographviz/internal/token"
 )
 
 const (
